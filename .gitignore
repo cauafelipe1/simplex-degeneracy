@@ -1,0 +1,16 @@
+# Local study docs, textbook, and assistant configuration
+.agents/
+AGENTS.md
+docs/
+*.pdf
+
+# Octave temporary files
+octave-workspace
+*.swp
+*~
+
+# NETLIB raw MPS data and generated binary/benchmark outputs
+data/mps/*
+!data/mps/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
